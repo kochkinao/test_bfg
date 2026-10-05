@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, status
 
 from test_task.api.dependencies import get_job_service
-from test_task.api.schemas import JobCreateRequest, JobResponse, JobAssignRequest
+from test_task.api.schemas import JobCreateRequest, JobResponse, JobAssignRequest, JobStatusChangeRequest
 from test_task.services.job_services import JobService
 from test_task.domain.models import JobStatus
 
