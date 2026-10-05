@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from app.domain.models import Job
+from .models import Job
 
 
 class JobRepository(ABC):

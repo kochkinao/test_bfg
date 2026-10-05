@@ -1,5 +1,5 @@
-from app.domain.repository import JobRepository
-from app.domain.models import Job
+from test_task.domain.repository import JobRepository
+from test_task.domain.models import Job
 
 
 class InMemoryJobRepository(JobRepository):

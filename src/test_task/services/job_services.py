@@ -1,6 +1,6 @@
-from app.domain.repository import JobRepository
-from app.domain.models import Job, JobStatus, JOB_STATUS_TRANSITIONS, JobHistoryEntry
-from app.domain.exceptions import InvalidJobDataError, JobNotFoundError, InvalidStatusTransitionError
+from test_task.domain.repository import JobRepository
+from test_task.domain.models import Job, JobStatus, JOB_STATUS_TRANSITIONS, JobHistoryEntry
+from test_task.domain.exceptions import InvalidJobDataError, JobNotFoundError, InvalidStatusTransitionError
 
 from uuid import uuid4
 from datetime import datetime, timezone
